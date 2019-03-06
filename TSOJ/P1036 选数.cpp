@@ -1,0 +1,40 @@
+#include<iostream>
+#include<string>
+#include<algorithm>
+#define maxn 10000
+
+using namespace std;
+
+int a[maxn];
+
+bool isprime(int n)
+{
+	for(int i=2; i*i<=n; i++)
+	{
+		if(n%i == 0)
+			return false;
+	}
+	return true;
+}
+
+int rule(int choose_left_num,int already_sum,int start,int end) //choose_left_num????k,already_sum???????,start?end?????????????;?????????,???????K????,????????0?,?????????????????
+{
+	if(choose_left_num==0)return isprime(already_sum);
+	int sum=0;
+	for(int i=start; i<=end; i++)
+	{
+		sum+=rule(choose_left_num-1,already_sum+x[i],i+1,end);
+	}
+	return sum;
+}
+
+int main()
+{
+	int n, k;
+	cin>>n>>k;
+	for(int i=0; i<n; i++)
+		cin>>a[i];
+
+	return 0;
+}
+

@@ -1,0 +1,50 @@
+#include<iostream>
+#include<string>
+#include<algorithm>
+#define maxn 10000
+
+using namespace std;
+
+int main()
+{
+	int n;
+	cin>>n;
+	int x;
+	for(int i=n+1; i>0; i--)
+	{
+		cin>>x;
+		if(i-1!=0)
+		{
+			if(x==1)
+				cout<<"+x^"<<i-1;
+			else if(x==-1)
+				cout<<"-x^"<<i-1;
+			else
+			{
+				if(x>0)
+				{
+					if(i == n+1)
+						cout<<x<<"x^"<<i-1;
+					else
+						cout<<"+"<<x<<"x^"<<i-1;
+				}
+				else if(x<0)
+					cout<<x<<"x^"<<i-1;
+				else
+					continue;
+
+			}
+		}
+		else
+		{
+			if(x>0)
+				cout<<"+"<<x<<endl;
+			else if(x<0)
+				cout<<x<<endl;
+			else
+				continue;
+		}
+	}
+	return 0;
+}
+

@@ -1,0 +1,42 @@
+#include<iostream>
+#include<string>
+#include<algorithm>
+#include<cmath>
+#define maxn 105
+
+using namespace std;
+
+int a[maxn];
+
+int main()
+{
+	int n, m, k;
+	cin>>n>>m>>k;
+	for(int i=1; i<=n; i++)
+	{
+		cin>>a[i];
+	}
+	int mq, mh;
+	for(int i=m-1; i>=1; i--)
+	{
+		if(a[i] != 0 && a[i] <= k)
+		{
+			mq = i;
+			break;
+		}
+	}
+	for(int i=m+1; i<=n; i++)
+	{
+		if(a[i] != 0 && a[i] <= k)
+		{
+			mh = i;
+			break;
+		}
+	}
+	mh = abs(mh-m);
+	mq = abs(mq-m);
+	int ans = min(mh, mq);
+	cout<<ans*10<<endl;
+	return 0;
+}
+

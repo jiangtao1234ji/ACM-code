@@ -1,0 +1,50 @@
+#include<iostream>
+#include<string>
+#include<algorithm>
+
+using namespace std;
+
+typedef struct node
+{
+	struct node *lchild, *rchild;
+	int data;
+}Tree;
+
+typedef Tree *TreeNode;
+
+void CreateTree(Tree *&T)
+{
+	int data;
+	cin>>data;
+	if(data == -1)
+		T = NULL;
+	else
+	{
+		T =  (TreeNode) malloc(sizeof(Tree));
+		T->data = data;
+		CreateTree(T->lchild);
+		CreateTree(T->rchild);
+	}
+}
+
+
+void preOrder(Tree *T)
+{
+	if(T != NULL)
+	{
+		cout<<T->data;
+		preOrder(T->lchild);
+		preOrder(T->rchild);
+	}
+}
+
+
+
+int main()
+{
+	Tree *t;
+	CreateTree(t);
+	preOrder(t);
+	return 0;
+}
+

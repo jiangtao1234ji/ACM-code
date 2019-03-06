@@ -1,0 +1,42 @@
+#include<iostream>
+#include<string>
+#include<algorithm>
+
+using namespace std;
+
+const int maxn=5000;
+
+int main()
+{
+	string a;
+	string a1;
+	string a2;
+	string b="END";
+	string c="ENDOFINPUT";
+	while(cin>>a)
+	{
+		if(a==c)
+			break;
+		getchar();
+		getline(cin,a1);
+		int k=0;
+		for(int i=0; i<a1.size(); ++i)
+		{
+			if(isalpha(news[i])){
+                if(news[i]<='E'){
+                    News[i]='Z'-(4-news[i]+'A');
+                }else
+                    News[i]=news[i]-5;
+            }else{
+                News[i]=news[i];
+            }
+
+		}
+		cin>>a2;
+		for(int i=0; i<a1.size(); ++i)
+			cout<<a[i];
+		cout<<endl;
+	}
+	return 0;
+}
+

@@ -1,0 +1,1678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ACM_code"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kerman/ACM-code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kerman/ACM-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kerman/ACM-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kerman/ACM-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kerman/ACM-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kerman/ACM-code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kerman/ACM-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kerman/ACM-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kerman/ACM-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kerman/ACM-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ACM_code">
+				<Option output="/home/kerman/ACM-code/cmake-build-debug/ACM_code" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kerman/ACM-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kerman/ACM-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 ACM_code"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kerman/ACM-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kerman/ACM-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kerman/ACM-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ACM_code/fast">
+				<Option output="/home/kerman/ACM-code/cmake-build-debug/ACM_code" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kerman/ACM-code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kerman/ACM-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 ACM_code/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kerman/ACM-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kerman/ACM-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kerman/ACM-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kerman/ACM-code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kerman/ACM-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kerman/ACM-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kerman/ACM-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kerman/ACM-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/2.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/2018 11 22/1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/2018 11 22/2.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/2018 12 01/A - Sum.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/2018 12 01/B - 2^x mod n = 1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/2018 12 01/C - Dertouzos.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/2018 12 02/A - Voltage Keepsake.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/2018 12 02/B - Volatile Kite.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/2018 12 06/A - All in All.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/2018 12 08/A - Dirichlet&apos;s Theorem on Arithmetic Progressions.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/2018 12 08/B - Jumping Cows.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/2018 12 08/C - Apple Catching.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/2018 12 08/D - Tree Cutting.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/2018 12 08/E - Palindrome.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/2018 12 09/A - Buying A House.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/2018 12 09/B - Find The Bone.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/2018 12 09/C - Bank Hacking.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/2018 12 09/D - Police Stations.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/2018 12 15/A - Anastasia and pebbles.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/2018 12 15/B - Masha and geometric depression.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/2018 12 15/C - Functions again.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/A - Mike and palindrome.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/B - Mike and strings.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/BFS.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/BFS求联通块.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/Vasya and Robot.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/poj 1649.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/poj 2018.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/二叉树.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/冒泡优化.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/图.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/小白10月月赛/A.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/小白10月月赛/B.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/小白10月月赛/C.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/小白10月月赛/C1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/推箱子.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/未名湖青蛙.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/校赛数列.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/ACM训练/线段树.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/1.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/1369.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/1411.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/1552.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/17lanqiaob2.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/17lanqiaob4.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/17lanqiaob6.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/17lanqiaob7.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/17lanqiaob8.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/17lanqiaob9.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/17lianqiaob1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/2.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/2.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/4.15 lianxi 1.1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/4.15 lianxi 1.2.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/4.15 lianxi 1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/4.15 lianxi 2.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/4.15 lianxi 4.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/4.15 lianxi 5.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/A - Anastasia and pebbles.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/A - Buying A House.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/A - Mike and palindrome.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/A - Sum.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/A - Voltage Keepsake.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/A Live Love.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/A.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/AK.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/AK.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/Array.h">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/B - 2^x mod n = 1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/B - Find The Bone.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/B - Jumping Cows.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/B - Masha and geometric depression.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/B - Mike and strings.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/B - Volatile Kite.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/B.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/BFS.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/BFS求联通块.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/BigInteger.h">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/C - Apple Catching.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/C - Bank Hacking.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/C - Dertouzos.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/C - Functions again.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/C.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/C1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/Calculator.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/D - Tree Cutting.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/DFS  深搜.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/E - Palindrome.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/K XOR Clique.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/Node.h">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P1003 铺地毯.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P1008.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P1022 计算器的改良.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P1028 数的计算.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P1036 选数.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P1046 陶陶摘苹果.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P1047 校门外的树.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P1055 ISBN号码.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P1067 多项式输出.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P1089.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P1149 火柴棒等式.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P1217 [USACO1.5]回文质数 Prime Palindromes.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P1307 数字反转.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P1308 统计单词数.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P1424 小鱼的航程.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P1427 小鱼的数字游戏.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P1464 Function.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P1478 陶陶摘苹果（升级版）.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P1553 数字反转（升级版.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P1579 哥德巴赫猜想（升级版).cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P1598 垂直柱状图.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P1618 三连击（升级版.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P1980 计数问题.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P2141 珠心算测验.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P3374 【模板】树状数组 1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/P5016 龙虎斗.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/Program.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/Single Wildcard Pattern Matching.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/Vasya and Robot.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/bfs练习.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/bisai.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/bisai1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/bisai2.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/bisai3.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/bisai4.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/bisai5.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/bisai6.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/bisai7.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/counting.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/dfs and bfs.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/dfs练习.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/example1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/example2.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/huanxu.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/jiafa.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiao1.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiao10.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiao11.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiao12.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiao13.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiao14.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiao15.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiao16.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiao17.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiao18.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiao19.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiao2.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiao20.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiao3.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiao4.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiao5.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiao6.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiao7.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiao8.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiao9.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiaolianxi1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiaolianxi10.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiaolianxi11.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiaolianxi12.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiaolianxi13.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiaolianxi14.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiaolianxi15.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiaolianxi16.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiaolianxi17.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiaolianxi18.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiaolianxi19.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiaolianxi2.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiaolianxi20.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiaolianxi3.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiaolianxi4.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiaolianxi5.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiaolianxi6.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiaolianxi7.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiaolianxi8.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/lanqiaolianxi9.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/maopao.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/n皇后.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/p143 悲剧文本.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/poj 1649.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/poj 2018.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/test.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/tim1386.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu pow.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu.1363.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1001.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1003.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1004.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1005.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1006.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1007.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1008.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1009.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1013.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1033.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1035.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1042.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1044.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1049.2.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1053.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1059.1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1059.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1071.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1079.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1080.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1081.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1083.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1084.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1090.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1092.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1099.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1100.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1101.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1104.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1105.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1110.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1111.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1113.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1116.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1119.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1120.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1121.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1125.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1126.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1128.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1129.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1130.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1131.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1132.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1134.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1135.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1136.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1136.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1137.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1138.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1140.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1141.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1145.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1146.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1147.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1148.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1150.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1151.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1152.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1155.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1156.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1158.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1162.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1166.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1170.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1175.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1176.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1176.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1180.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1182.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1187.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1188.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1189.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1193.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1195.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1196.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1198.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1201.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1202.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1205.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1206.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1206.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1207.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1209.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1210.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1211.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1212.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1213.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1214.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1215.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1216.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1217.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1220.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1226.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1226.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1228.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1229.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1230.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1231.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1232.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1233.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1235.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1237.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1237.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1238.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1239.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1241.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1243.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1244.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1246.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1248.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1249.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1250.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1251.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1252.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1253.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1254.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1255.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1256.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1258.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1259.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1262.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1263.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1264.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1265.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1266.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1267.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1268.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1272.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1273.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1274.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1275.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1279.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1281.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1284.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1284.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1285.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1286.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1287.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1290.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1293.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1294.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1295.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1296.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1297.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1299.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1301.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1302.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1304.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1306.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1307.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1312.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1314.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1316.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1317.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1318.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1319.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1320.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1323.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1328.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1339.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1341.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1342.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1344.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1348.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1350.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1352.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1353.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1353.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1356.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1357.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1358.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1359.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1360.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1361.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1362.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1363 1.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1363.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1364.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1365.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1366.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1370 1.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1370.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1371.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1373.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1374 1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1374.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1374.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1375.1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1375.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1377.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1378.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1389.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1395.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1396.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1397.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1398.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1400.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1401.1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1401.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1409.1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1409.3.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1409.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1412.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1416.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1419.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1422.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1423.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1424.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1425.1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1425.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1426.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1439.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1440.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1453.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1454.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1458.1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1458.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1459.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1463.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1466.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1473.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1479.1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1479.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1482.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1502.1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1502.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1508.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1535.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1536.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu1537.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu2.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu3.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/timu4.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/二叉树.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/二叉树的遍历.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/冒泡优化.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/吃饼干.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/哈夫曼树及编码.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/多项式加法.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/大数位数.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/好多质数.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/字典序.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/字符串相等.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/字符串相等.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/学生管理系统.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/安置路灯.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/小明的烦恼.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/希尔排序.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/平面分隔.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/幸运的人.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/广搜  BFS.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/快速排序.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/手机短信处理.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/推箱子.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/插入排序.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/数制转换.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/数据合并.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/方.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/无人机路径.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/最大子数组.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/最短路径.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/最短路径1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/最长公共子序列.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/未名湖青蛙.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/未命名1.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/未命名1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/未命名2.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/未命名2.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/未命名3.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/未命名4.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/未命名5.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/栈.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/校赛数列.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/武松打虎.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/特殊的整数.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/用指针的两个数的大小比较.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/画图签到.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/睡神.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/矩阵连乘问题.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/移动用户.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/算法提高 矩阵翻转.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/约瑟夫环.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/线性表.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/线性表的链式实现.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/线段树.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/表达式.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/观看山巅.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/计算机行业统计.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/计算程序时间的模板.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/课程表.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/迷宫.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/选择排序法.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/钢条切割.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/链表.c">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/链表.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/集合问题.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/TSOJ/骑自行车.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/ACM寒假训练/最长公共子序列模板题.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/P1983 车站分级.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/提高历练地/提高模板-nlogn数据结构/P3368 【模板】树状数组 2.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/提高历练地/提高模板-nlogn数据结构/P3374 【模板】树状数组 1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/1.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1008.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1014 Cantor表.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1022 计算器的改良.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1028 数的计算.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1035 级数求和.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1036 选数.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1046 陶陶摘苹果.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1047 校门外的树.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1055 ISBN号码.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1085.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1089.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1149 火柴棒等式.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1200 [USACO1.1]你的飞碟在这儿Your Ride Is He….cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1217 [USACO1.5]回文质数 Prime Palindromes.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1307 数字反转.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1308 统计单词数.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1423 小玉在游泳.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1424 小鱼的航程.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1426 小鱼会有危险吗.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1427 小鱼的数字游戏.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1428 小鱼比可爱.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1464 Function.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1478 陶陶摘苹果（升级版）.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1553 数字反转（升级版.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1567 统计天数.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1579 哥德巴赫猜想（升级版).cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1598 垂直柱状图.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1618 三连击（升级版.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1909.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1914 小书童——密码.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P1980 计数问题.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P2089 烤鸡.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P2141 珠心算测验.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P5015 标题统计.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/P5016 龙虎斗.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/新手村/超级玛丽游戏.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/普及练习场/简单的模拟/P1003 铺地毯.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/洛谷代码存放/普及练习场/简单的模拟/P1067 多项式输出.cpp">
+			<Option target="ACM_code"/>
+		</Unit>
+		<Unit filename="/home/kerman/ACM-code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

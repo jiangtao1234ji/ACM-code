@@ -1,0 +1,61 @@
+#include<iostream>
+#include<cstring>
+#include<algorithm>
+#define maxn 10000
+
+using namespace std;
+
+char s[maxn];
+
+int main()
+{
+	int len, pre = 0, flag = 0, blx = 0, lor=1, blf = 0;
+	char bl;
+	scanf("%s",s+1);
+	len=strlen(s+1);
+	s[0]='+';
+	s[len+1]='+';
+	for(int i=1; i<=len+1; i++)
+	{
+		if(s[i]>='a'&&s[i]<='z')
+			bl=s[i];
+		if(s[i]=='='||s[i]=='-'||s[i]=='+')
+		{
+			int h = 0, e;
+			if(i == 1 || i - 1 == e)
+			{
+				pre = i;
+				continue;
+			}
+			int x= 0;
+			if(isdigit(s[i-1]))
+				flag=0;
+			else
+				flag = 1;
+			for(int j=pre+1; j<=i-1-flag; j++)
+			{
+				x=(x<<1)+(x<<3)+(s[j]^'0');
+				h = 1;
+			}
+			if(h == 0)
+				x = 1;
+			if(flag == 0)
+				blf+=x*lor*-1*(s[pre]-44)*-1;
+			else
+				blx+=x*lor*(s[pre]-44)*-1;
+			pre = i;
+			if(s[i] == '=')
+			{
+				lor = -1;
+				s[i] = '+';
+				e = i;
+			}
+		}
+	}
+	if(!(blf/blx))
+		printf("%c=0.000lf",bl);
+	else
+		printf("%c=%.3lf",bl,);
+	return 0;
+}
+

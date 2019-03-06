@@ -1,0 +1,54 @@
+#include<iostream>
+#include<string>
+#include<cmath>
+#include<algorithm>
+#define maxn 1100
+#define INF 1e18
+
+using namespace std;
+
+struct point
+{
+	double x, y;
+	point()
+	{
+	}
+	point(double a, double b):x(a), y(b) {}
+	friend point operator -(point a, point b)
+	{
+		return point(a.x-b.x, a.y-b.y);
+	}
+	friend point operator +(point a, point b)
+	{
+		return point(a.x+b.x, a.y+b.y);
+	}
+	friend int operator *(point a, point b)
+	{
+		return a.x*b.y - a.y*b.x;
+	}
+
+} p[maxn];
+
+
+double getdis(point a, point b)
+{
+	return sqrt((a.x - b.x)*(a.x - b.x) + (a.y - b.y)*(a.y - b.y));
+}
+
+int main()
+{
+	int n;
+	for(int i=0; i<n; i++)
+		scanf("%lf%lf", &p[i].x, &p[i].y);
+	for (int i=n; i<n+2; i++)
+		p[i] = p[i-n];
+	double ans = INF;
+	for(int i=0; i<n; i++)
+	{
+		double tmp = (p[i + 2] - p[i]) * (p[i + 1] - p[i])/ 2.0 / getdis(p[i + 2], p[i]);
+		ans = min(ans, tmp);
+	}
+	printf("%.10f\n", ans);
+	return 0;
+}
+

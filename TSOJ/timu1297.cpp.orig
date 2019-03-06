@@ -1,0 +1,30 @@
+#include<iostream>  
+#include<cstdio>  
+#include<cstring>  
+#include<algorithm>  
+using namespace std;  
+struct L{  
+    int a,p;  
+}r[1005];  
+int cmp(L A,L B){return A.p!=B.p?A.p>B.p:A.a>B.a;}  
+int dp[1005];  
+int main(){  
+    int n,k;  
+    while(~scanf("%d%d",&n,&k)){  
+        for(int i=1;i<=n;i++)scanf("%d",&r[i].a);  
+        for(int i=1;i<=n;i++)scanf("%d",&r[i].p);  
+        sort(r+1,r+n+1,cmp);  
+        memset(dp,0,sizeof(dp));  
+        int ans=0;  
+        for(int i=1;i<=n;i++){  
+            for(int j=k;j;j--){  
+                int add=r[i].a-r[i].p*(j-1);  
+                if(add<0)add=0;  
+                dp[j]=max(dp[j],dp[j-1]+add);    ans=max(ans,dp[j]);       
+            }  
+        }  
+        printf("%d\n",ans);  
+    }  
+    return 0;  
+}  
+

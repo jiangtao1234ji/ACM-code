@@ -1,0 +1,17 @@
+#include<iostream>
+#include<string>
+#include<algorithm>
+
+using namespace std;
+
+void get_next()
+{
+
+}
+
+int main()
+{
+
+	return 0;
+}
+

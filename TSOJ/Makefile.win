@@ -1,0 +1,28 @@
+# Project: 人脸识别
+# Makefile created by Dev-C++ 5.10
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = ../../../../虹软人脸识别SDK/人脸追踪/inc/samplecode.o
+LINKOBJ  = ../../../../虹软人脸识别SDK/人脸追踪/inc/samplecode.o
+LIBS     = -L"D:/蒋涛/bin/Dev-Cpp/MinGW64/lib" -L"D:/蒋涛/bin/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc ../../../../虹软人脸识别SDK/人脸追踪/lib/libarcsoft_fsdk_face_tracking.lib ../../../../虹软人脸识别SDK/人脸追踪/lib/libarcsoft_fsdk_face_tracking.dll -g3
+INCS     = -I"D:/蒋涛/bin/Dev-Cpp/MinGW64/include" -I"D:/蒋涛/bin/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/蒋涛/bin/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include"
+CXXINCS  = -I"D:/蒋涛/bin/Dev-Cpp/MinGW64/include" -I"D:/蒋涛/bin/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/蒋涛/bin/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -I"D:/蒋涛/bin/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"
+BIN      = 人脸识别.exe
+CXXFLAGS = $(CXXINCS) -g3 -std=c++11
+CFLAGS   = $(INCS) -g3 -std=c++11
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+../../../../虹软人脸识别SDK/人脸追踪/inc/samplecode.o: ../../../../虹软人脸识别SDK/人脸追踪/inc/samplecode.cpp
+	$(CPP) -c ../../../../虹软人脸识别SDK/人脸追踪/inc/samplecode.cpp -o ../../../../虹软人脸识别SDK/人脸追踪/inc/samplecode.o $(CXXFLAGS)

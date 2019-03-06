@@ -1,0 +1,94 @@
+#include<iostream>
+#include<cstring>
+#include<algorithm>
+
+using namespace std;
+//递归
+/*int fun(int p[], int n)
+{
+	if(n == 0)
+		return 0;
+	int q=-1000000000;
+	for(int i=1; i<=n; ++i)
+		q=max(q,p[i]+fun(p,n-i));
+	return q;
+}
+
+int main()
+{
+	int p[10000];
+	int n;
+	while(cin>>n)
+	{
+		for(int i=1; i<=n; ++i)
+			cin>>p[i];
+		cout<<fun(p,n)<<endl;
+	}
+	return 0;
+}*/
+
+//动态规划   ------自顶向下
+
+/*int fun(int p[], int n, int r[])
+{
+	int q;
+	if(r[n]>=0)
+		return r[n];
+	if(n == 0)
+		q = 0;
+	else
+	{
+		q=-1000000000;
+		for(int i=1; i<=n; ++i)
+			q=max(q,p[i]+fun(p,n-i,r));
+	}
+	r[n]==q;
+	return q;
+}
+
+int main()
+{
+	int p[10000], r[10000];
+	int n;
+	while(cin>>n)
+	{
+		for(int i=1; i<=n; ++i)
+			r[i]=-100000;
+		for(int i=1; i<=n; ++i)
+			cin>>p[i];
+		cout<<fun(p,n,r)<<endl;
+	}
+	return 0;
+}*/
+
+//动态规划   ------自底向上
+
+int fun(int p[], int n)
+{
+	int r[n];
+	r[0]=0;
+	for(int i=1; i<=n; ++i)
+	{
+		int q=-10000;
+		for(int j=1; j<=n; ++j)
+			q=max(q,p[j]+r[i-j]);
+		r[i]=q;
+	}
+	return r[n];
+}
+
+int main()
+{
+	int p[10000];
+	int n;
+	while(cin>>n)
+	{
+		for(int i=1; i<=n; ++i)
+			cin>>p[i];
+		cout<<fun(p,n)<<endl;
+	}
+	return 0;
+}
+
+
+

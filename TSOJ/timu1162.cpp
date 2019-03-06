@@ -1,0 +1,69 @@
+#include<iostream>
+#include<stack>
+#include<algorithm>
+#include<vector>
+
+using namespace std;
+
+int main()
+{
+	stack<int> s;
+	int n;
+	while(cin>>n)
+	{
+		vector<int> ans, a, b;
+		int c;
+		for(int i=0; i<n; ++i)
+		{
+			cin>>c;
+			ans.push_back(c);
+			a.push_back(i+1);
+		}
+		int ka = 0, kb = 0, kans = 0;
+		while(!(b.size() == n) || !a.empty())
+		{
+			if(a[ka] == ans[kans])
+			{
+				b.push_back(a[ka]);
+				a.erase(a.begin()+ka);
+				kans++;
+			}
+			else
+			{
+				if(s.empty())
+				{
+					s.push(a[ka]);
+					a.erase(a.begin()+ka);
+				}
+				else
+				{
+					if(s.top() == ans[kans])
+					{
+						b.push_back(ans[kans]);
+						s.pop();
+						kans++;
+					}
+					else
+					{
+						s.push(a[ka]);
+						if(a.empty()){
+							break;
+						}
+						a.erase(a.begin()+ka);
+					}
+				}
+			}
+		}
+		if(b.size() == n)
+			cout<<"Yes"<<endl;
+		else
+			cout<<"No"<<endl;
+		ans.clear();
+		a.clear();
+		b.clear();
+		while(!s.empty())
+			s.pop();
+	}
+	return 0;
+}
+

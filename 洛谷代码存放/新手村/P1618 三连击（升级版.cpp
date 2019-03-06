@@ -1,0 +1,59 @@
+#include<iostream>
+#include<cstring>
+#include<algorithm>
+#define maxn 1000
+
+using namespace std;
+
+int vis[maxn];
+
+int main()
+{
+	int n1, n2, n3, flag = 0;
+	int a[10];
+	cin>>n1>>n2>>n3;
+	for(int i=(100/n1+min(100%n1,1))*n1; i<1000/n1*n1; i+=n1)
+	{
+		int j=i/n1*n2;
+		int k=i/n1*n3;
+		if(j>=100&&j<=999&&k>=100&&k<=999)
+		{
+			for(int m=1; m<=9; m++)
+				a[m] = 0;
+			int k1 = i, k2 = j, k3 = k;
+			while(k1)
+			{
+				int b = k1%10;
+				a[b] = 1;
+				k1/=10;
+			}
+			while(k2)
+			{
+				int b = k2%10;
+				a[b] = 1;
+				k2/=10;
+			}
+			while(k3)
+			{
+				int b = k3%10;
+				a[b] = 1;
+				k3/=10;
+			}
+			int count = 0;
+			for(int i=1; i<=9; i++)
+			{
+				if(a[i])
+					count++;
+			}
+			if(count == 9)
+			{
+				flag = 1;
+				cout<<i<<" "<<j<<" "<<k<<endl;
+			}
+		}
+	}
+	if(!flag)
+		cout<<"No!!!"<<endl;
+	return 0;
+}
+

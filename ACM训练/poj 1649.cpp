@@ -1,0 +1,67 @@
+#include<iostream>
+#include<string>
+#include<queue>
+#include<algorithm>
+#define maxn 100
+
+using namespace std;
+
+struct point
+{
+	int x, y;
+	point()
+	{
+	}
+	point(int x=0, int y=0):x(x),y(y)
+	{
+	}
+};
+char map[maxn][maxn];
+int vis[maxn][maxn];
+int dx[4] = {0,0,-1,1};
+int dy[4] = {-1,1,0,0};
+
+int main()
+{
+	int n,m, sign=0;
+	cin>>n>>m;
+	queue<point> q;
+	for(int i=0; i<n; ++i)
+	{
+		for(int j=0; j<m; ++j)
+		{
+			cin>>map[i][j];
+			if(map[i][j] == 'r')
+			{
+				point p(i,j);
+				q.push(p);
+			}
+		}
+	}
+	while(!q.empty())
+	{
+		point t = q.front();
+		point t1 = t;
+		q.pop();
+		if(map[t.x][t.y] == 'a')
+		{
+			cout<<sign<<endl;
+			break;
+		}
+		for(int i=0; i<4; ++i)
+		{
+			int x = t.x + dx[i];
+			int y = t.y + dy[i];
+			if(map[x][y] != '#' && vis[x][y] == 0 && x>=0 && x<n && y>=0 && y<m)
+			{
+				t.x = x;
+				t.y = y;
+				vis[x][y] = 1;
+				q.push(t);
+			}
+			t = t1;
+		}
+	}
+	return 0;
+}
+

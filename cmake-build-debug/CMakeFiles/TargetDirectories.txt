@@ -1,0 +1,3 @@
+/home/kerman/ACM-code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kerman/ACM-code/cmake-build-debug/CMakeFiles/ACM_code.dir
+/home/kerman/ACM-code/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+#define a_rows  3
+#define a_columns 4
+#define b_rows  4
+#define b_columns 3
+
+void matrix_multiply(int a[a_rows][a_columns],int b[b_rows][b_columns],int c[a_rows][b_columns])
+{
+    if (a_columns!=b_rows)
+    {
+        printf("error!can't figure the answer!\n");
+    }
+    for (int i = 0; i < a_rows; i++)
+    {
+        for (int j = 0; j < b_columns; j++)
+        {
+            c[i][j]=0;
+            for (int k = 0; k< a_columns; k++)
+            {
+                c[i][j]=c[i][j]+a[i][k]*b[k][j];
+            }
+        }
+    }
+}
+
+int main()
+{
+
+    printf("it is a easy matrix \n");
+
+    int a[a_rows][a_columns]={{1,1,1,1},{2,2,2,2},{3,3,3,3}};
+    int b[b_rows][b_columns]={{1,1,1},{2,2,2},{3,3,3},{4,4,4}};
+    int c[a_rows][b_columns]={0};
+    matrix_multiply(a,b,c);
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; j++)
+        {
+            printf("%d  \n",c[i][j]);
+            if (j==2)
+            {
+                printf("\n");
+            }
+        }
+    }
+    return 0;
+}

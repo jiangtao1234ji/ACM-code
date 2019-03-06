@@ -1,0 +1,75 @@
+#include<iostream>
+#include<string>
+#include<algorithm>
+
+using namespace std;
+
+const int BASE10 = 10;
+
+long convert(long v, int base)
+{
+	long ans, weight;
+	int digit;
+	ans = 0;
+	weight = 1;
+	while(v)
+	{
+		digit = v % BASE10;
+		v /= BASE10;
+		if(digit >= base)
+		{
+			ans = -1;
+			break;
+		}
+		ans += weight * digit;
+		weight *= base;
+	}
+	return ans;
+}
+
+int main()
+{
+	int t;
+	long p, q, r;
+	long p2, q2, r2;
+	int ans, i;
+	while(cin>>t)
+	{
+		while(t--)
+		{
+
+			cin>>p>>q>>r
+			   ans = 0;
+			for(i=2; i<16; i++)
+			{
+				p2 = convert(p, i);
+				if(p2 < 0)
+				{
+					ans = 0;
+					continue;
+				}
+				q2 = convert(q, i);
+				if(q2 < 0)
+				{
+					ans = 0;
+					continue;
+				}
+				r2 = convert(r, i);
+				if(r2 < 0)
+				{
+					ans = 0;
+					continue;
+				}
+
+				if(p2 * q2 == r2)
+				{
+					ans = i;
+					break;
+				}
+			}
+		}
+
+		printf("%d\n", ans);
+	}
+	return 0;
+}

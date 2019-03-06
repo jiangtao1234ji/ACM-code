@@ -1,0 +1,36 @@
+#include<iostream>
+#include<cstring>
+#include<algorithm>
+#define N 10005
+
+using namespace std;
+
+int main()
+{
+	char a[N];
+	char c[N]={'0'};
+	char a1, a2;
+	while(cin>>a1>>a2)
+	{
+		int k=0;
+		char b=cin.peek();
+		while(b!='\n')
+			cin>>a[k++];
+		getchar();
+		int num=0;
+		for(int i=k; i>=1; --i)
+		{
+			int m=a[i]-'0';
+			int j=0;
+			 for (; (j < index )|| m; ++j )
+			 {  
+                int temp = m*10 + (j < index ? c[j] - '0' :0 );  
+                c[j] = temp/8 + '0';    
+                num = temp%8;      
+            }  
+            index = j;  
+		}
+	}
+	return 0;
+}
+

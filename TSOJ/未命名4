@@ -1,0 +1,40 @@
+public static int getAllFactors(int n,int m)
+{
+	int count = 0;
+	if(n ==0 || m ==0)			return 0;
+	else 			//调用最大公约数函数
+		int greatestCommonMeasure = Tools.getGreatestCommonMeasure_2(n, m);
+	if(greatestCommonMeasure == 0)
+	{
+		return greatestCommonMeasure;
+	}
+	else if(greatestCommonMeasure == 1)
+	{
+		System.out.println(1+" ");
+		return greatestCommonMeasure;
+	}
+	else
+	{
+		System.out.print(1+" ");
+		count++;
+		if(greatestCommonMeasure != n && greatestCommonMeasure != m)
+		{
+			count++;
+			System.out.print(greatestCommonMeasure+" ");
+		}
+		int l = (int) Math.sqrt(greatestCommonMeasure);
+		for(int i = 2; i <= l; i++)
+		{
+			if(greatestCommonMeasure % i == 0)
+			{
+				System.out.print(i+" ");
+				System.out.print(greatestCommonMeasure/i+" ");
+				count += 2;
+			}
+		}
+	}
+	return count;
+}
+}
+{
+

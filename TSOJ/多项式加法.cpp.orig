@@ -1,0 +1,55 @@
+#include<iostream>
+#include<string>
+#include<algorithm>
+#define maxn 100;
+
+
+using namespace std;
+
+typedef struct
+{
+	int num[maxn][maxn];
+	int length;
+} List;
+
+
+int main()
+{
+	int n;
+	cout<<"请输入有几个多项式相加:"<<endl;
+	while(cin>>n)
+	{
+		List list;
+		for(int i=0; i<n; ++i)
+		{
+			cout<<"请输入多项式:"<<endl;
+			string a;
+			cin>>a;
+			for(int j=0; j<a.size(); ++j)
+			{
+				if(a[j] == '^')
+					list.num[i][a[j+1]] = a[j-2];
+			}
+		}
+		for(int i=0; i<n; ++i)
+		{
+			for(int j=0; j<maxn; ++j)
+			{
+				list.num[maxn][j] += list.num[i][j];
+			}
+		}
+		for(int i=0; i<maxn; ++i)
+		{
+			bool flag = true;
+			if(list.num[maxn][i] != 0)
+			{
+				if(flag){
+				
+				cout<<list.num[maxn][i]<<"x^"<<i;
+				flag = false;}
+			}
+		}
+	}
+	return 0;
+}
+

@@ -1,0 +1,81 @@
+#include<iostream>
+#include<string>
+#include<algorithm>
+#include<cstring>
+#define maxn 100
+
+using namespace std;
+
+typedef struct
+{
+	int d, num;
+} point;
+
+int v[maxn][maxn];
+
+bool cmp(point a, point b)
+{
+	if(a.d>b.d)
+		return true;
+	return false;
+}
+
+point p[maxn];
+
+int main()
+{
+	int t;
+	cin>>t;
+	while(t--)
+	{
+		int n;
+		cin>>n;
+
+		for(int i=0; i<n; ++i)
+		{
+			p[i].num = i;
+			cin>>p[i].d;
+		}
+		bool flag = false;
+		memset(v,0,sizeof(v));
+		for(int i=0; i<n; ++i)
+		{
+			sort(p+i,p+n, cmp);
+			if(p[i].d>=n)
+			{
+				flag = true;
+				break;
+			}
+			if(p[i].d == 0)
+				break;
+
+			for(int j = i+1; p[i].d>0; ++j)
+			{
+				p[i].d--;
+				p[j].d--;
+				v[p[i].num][p[j].num] = 1;
+				v[p[j].num][p[i].num] = 1;
+			}
+
+		}
+		if(flag)
+			cout<<"NO"<<endl;
+		else
+		{
+			cout<<"YES"<<endl;
+			for (int i = 0; i < n; i++)
+			{
+				for (int j = 0; j < n; j++)
+				{
+					if (j == 0)
+						cout<<v[i][j];
+					else
+						cout<<" "<<v[i][j];
+				}
+				cout<<endl;
+			}
+		}
+	}
+	return 0;
+}
+

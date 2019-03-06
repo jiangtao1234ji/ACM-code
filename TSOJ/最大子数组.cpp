@@ -1,0 +1,111 @@
+#include<iostream>
+#include<string>
+#include<algorithm>
+#define MaxN  0x3f3f3f3f
+#define MinN  0xc0c0c0c0
+#define N 100
+
+
+using namespace std;
+
+int max_left, max_right;
+
+typedef struct divide
+{
+	int low;
+	int high;
+	int sum;
+} left, right, cross;
+
+/*typedef struct Array
+{
+	divide left;
+
+};*/
+
+
+// 方法一   分治 
+
+
+int Find_max_crossing_subarray(int A[], int low, int mid, int high)
+{
+	int left_sum=MinN;
+	int sum=0;
+	for(int i=mid; i>=low; --i)
+	{
+		sum+=A[i];
+		if(sum>left_sum)
+		{
+			left_sum=sum;
+			max_left=i;
+		}
+	}
+	int right_sum=MinN;
+	sum=0;
+	for(int i=mid+1; i<=high; ++i)
+	{
+		sum+=A[i];
+		if(sum>right_sum)
+		{
+			right_sum=sum;
+			max_right=i;
+		}
+	}
+	return left_sum+right_sum;
+}
+
+int Find_maximum_subarray(int A[], int low, int high)
+{
+	if(high == low)
+		return A[low];
+	else
+	{
+		int mid=(low+high)/2;
+		int left_sum=Find_maximum_subarray(A,low,mid);
+		int right_sum=Find_maximum_subarray(A,mid+1,high);
+		int cross_sum=Find_max_crossing_subarray(A,low,mid,high);
+		if(left_sum>=right_sum&&left_sum>=cross_sum)
+			return left_sum;
+		else if(right_sum>=left_sum&&right_sum>=cross_sum)
+			return right_sum;
+		else
+			return cross_sum;
+	}
+}
+
+int main()
+{
+	int n;
+	int A[N];
+	while(cin>>n)
+	{
+		for(int i=1; i<=n; ++i)
+			cin>>A[i];
+		cout<<Find_maximum_subarray(A,1,n)<<endl;
+	}
+	return 0;
+}
+
+
+//方法二 贪心 
+
+/*int maxSubArray(vector<int> nums)
+{
+	int n = nums.size();
+	int ans = MinN;
+	int sum = 0;
+	for(int i=0; i<n; i++)
+	{
+		sum += nums[i];
+		if(sum > ans)
+		{
+			ans = sum;
+		}
+		if(sum < 0)
+		{
+			sum = 0;   //子串和为负数，丢掉
+		}
+	}
+	return ans;
+}*/
+

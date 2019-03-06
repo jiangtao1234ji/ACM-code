@@ -1,0 +1,10 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/cc -DCMAKE_CXX_COMPILER=/usr/bin/c++ -G "CodeBlocks - Unix Makefiles" /home/kerman/ACM-code
+CMake Error at CMakeLists.txt:6 (add_executable):
+  The target name
+  "洛谷代码存放/ACM寒假训练/最长公共子序列模板题.cpp" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/kerman/ACM-code/cmake-build-debug/CMakeFiles/CMakeOutput.log".

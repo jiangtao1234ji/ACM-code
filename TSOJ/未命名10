@@ -1,0 +1,33 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int n, now, max, maxstart, maxend, sum, sumstart, first;
+	while(cin >> n && n)
+	{
+		cin >> now;
+		max = maxstart = maxend = first = now;
+		sum = sumstart = now;
+
+		for(int j=2; j<=n; j++)
+		{
+			cin >> now;
+
+			if(sum < 0)
+				sum = sumstart = now;
+			else
+				sum += now;
+			if(sum > max)
+				max = sum, maxstart = sumstart, maxend = now;
+		}
+
+		if(max < 0)
+			cout << "0 " << first << " " << now << endl;
+		else
+			cout << max << " " << maxstart << " " << maxend << endl;
+	}
+
+	return 0;
+}

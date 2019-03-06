@@ -1,0 +1,69 @@
+#include<iostream>
+#include<cstring>
+#include<algorithm>
+
+using namespace std;
+
+int main()
+{
+	int n;
+	char a[305];
+	char b[305];
+	char c[305];
+	while(cin>>n)
+	{
+		getchar();
+		if(n==0)
+			break;
+		int k=0;
+		for(int i=0; i<2*n-1; i++)
+		{
+			char d=cin.peek();
+			if(d!=' ')
+				cin>>a[k++];
+			else
+				getchar();
+		}
+		getchar();
+		k=0;
+		for(int i=0; i<2*n-1; i++)
+		{
+			char d=cin.peek();
+			if(d!=' ')
+				cin>>b[k++];
+			else
+				getchar();
+		}
+		getchar();
+		k=0;
+		for(int i=0; i<2*n-1; i++)
+		{
+			char d=cin.peek();
+			if(d!=' ')
+				cin>>c[k++];
+			else
+				getchar();
+		}
+		getchar();
+		int num[305];
+		memset(num,0,sizeof(num));
+		for(int i=0; i<n; i++)
+		{
+			num[a[i]]++;
+			num[b[i]]++;
+			num[c[i]]++;
+		}
+		for(int i=0; i<n; i++)
+			cout<<a[i]<<" ";
+			for(int i=0; i<n; i++)
+			cout<<a[i]<<" ";
+			for(int i=0; i<n; i++)
+			cout<<a[i]<<" ";
+		for(int i=0; i<305; i++)
+			if(num[i]==3)
+				cout<<i<<" ";
+		cout<<endl;
+	}
+	return 0;
+}
+
