@@ -1,38 +1,57 @@
-#include <iostream>
-#include <algorithm>
-#include <string>
-#define maxn 10000
+    #include <iostream>
+    #include <algorithm>
+    #include <string>
+    #define maxn 10000
 
-using namespace std;
+    using namespace std;
 
-int main()
-{
-    int n;
-    cin >> n;
-    int cnt = 1;
-    char a = '0', b = '0', c = '0';
-    while (n--)
+    int main()
     {
-        cin >> c;
-        if ((a == 'L' && c == 'R') || (a == 'R' && c == 'L') || (a == 'U' && c == 'D') || (a == 'D' && c == 'U'))
+        int n;
+        cin >> n;
+        string s;
+        cin>>s;
+        int cnt = 1;
+        int a =0, b=0;
+        for(int i=0; i<s.size(); i++)
         {
-            cnt++;
-            a = '0', c = '0';
+            if(s[i] == 'L')
+            {
+                if(a == 2)
+                {
+                    b = 0;
+                    cnt++;
+                }
+                a = 1;
+            }
+            else if(s[i] == 'R')
+            {
+                if(a == 1)
+                {
+                    b = 0;
+                    cnt++;
+                }
+                a = 2;
+            }
+            else if(s[i] == 'U')
+            {
+                if(b == 2)
+                {
+                    a = 0;
+                    cnt++;
+                }
+                b = 1;
+            }
+            else if(s[i] == 'D')
+            {
+                if(b == 1)
+                {
+                    a = 0;
+                    cnt++;
+                }
+                b = 2;
+            }
         }
-        if ((b == 'L' && c == 'R') || (b == 'R' && c == 'L') || (b == 'U' && c == 'D') || (b == 'D' && c == 'U'))
-        {
-            cnt++;
-            b = '0', c = '0';
-        }
-        if (!((a == 'L' && c == 'R') || (a == 'R' && c == 'L') || (a == 'U' && c == 'D') || (a == 'D' && c == 'U')) ||
-            !((b == 'L' && c == 'R') || (b == 'R' && c == 'L') || (b == 'U' && c == 'D') || (b == 'D' && c == 'U')))
-        {
-            if (a == '0')
-                a = c;
-            if (b == '0')
-                b = c;
-        }
+        cout << cnt << endl;
+        return 0;
     }
-    cout << cnt << endl;
-    return 0;
-}
